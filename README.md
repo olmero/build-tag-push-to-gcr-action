@@ -31,6 +31,6 @@ with:
   project_name: api-tender
   jar_file: build/libs/api-tender-1.0.0.RELEASE.jar
   env:
-    GCLOUD_SERVICE_KEY: ${{ secrets.GCLOUD_SERVICE_KEY }}
-    GOOGLE_PROJECT_ID: ${{ secrets.GOOGLE_PROJECT_ID }}
+    GCLOUD_JSON_KEY: ${{ secrets.GCLOUD_JSON_KEY }}
+    GCLOUD_PROJECT_ID: ${{ secrets.GCLOUD_PROJECT_ID }}
 ```
