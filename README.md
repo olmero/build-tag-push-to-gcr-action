@@ -30,7 +30,7 @@ uses: olmero/build-tag-push-to-gcr-action@v1
 with:
   project_name: api-tender
   jar_file: build/libs/api-tender-1.0.0.RELEASE.jar
-  env:
-    GCLOUD_JSON_KEY: ${{ secrets.GCLOUD_JSON_KEY }}
-    GCLOUD_PROJECT_ID: ${{ secrets.GCLOUD_PROJECT_ID }}
+env:
+  GCLOUD_JSON_KEY: ${{ secrets.GCLOUD_JSON_KEY }}
+  GCLOUD_PROJECT_ID: ${{ secrets.GCLOUD_PROJECT_ID }}
 ```
