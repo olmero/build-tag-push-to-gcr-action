@@ -26,7 +26,7 @@ Google cloud project id. Used in combination with GCR endpoint to build full doc
 ## Example usage
 
 ```ylm
-uses: olmero/build-tag-push-to-gcr-action
+uses: olmero/build-tag-push-to-gcr-action@v1
 with:
   project_name: api-tender
   jar_file: build/libs/api-tender-1.0.0.RELEASE.jar
