@@ -5,9 +5,9 @@ Pass all sensitive data using secrets.
 
 ## Inputs
 
-### `service_name`
+### `project_name`
 
-Name of the service that is being built.
+Name of the java project that is being built.
 
 ### `jar_file`
 
