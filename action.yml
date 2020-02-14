@@ -1,0 +1,12 @@
+name: 'Build, tag and push to Docker GCR'
+description: 'Github action for building, tagging with git commit sha and branch name and pushing docker images to GCR'
+inputs:
+  service_name:
+    description: 'Name of the service that is being built.'
+    required: true
+  jar_file:
+    description: 'Path to the JAR file that will be containerized.'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
