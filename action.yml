@@ -7,6 +7,10 @@ inputs:
   jar_file:
     description: 'Path to the JAR file that will be containerized.'
     required: true
+  docker_file:
+    description: 'Path to the Dockerfile that will be used for building this image.'
+    required: false
+    default: 'Dockerfile'
 runs:
   using: 'docker'
   image: 'Dockerfile'

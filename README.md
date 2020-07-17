@@ -13,6 +13,10 @@ Name of the java project that is being built.
 
 Path to the JAR file that will be containerized.
 
+### `docker_file`
+
+Path to Dockerfile that will be used to build the image.
+
 ## Required Environment Variables
 
 ### `GCLOUD_JSON_KEY`
