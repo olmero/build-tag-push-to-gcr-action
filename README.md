@@ -1,4 +1,6 @@
 # build-tag-push-to-gcr-action
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Folmero%2Fbuild-tag-push-to-gcr-action.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Folmero%2Fbuild-tag-push-to-gcr-action?ref=badge_shield)
+
 Github action for building, tagging with git commit sha and branch name and pushing docker images to GCR
 
 Pass all sensitive data using secrets.
@@ -38,3 +40,6 @@ env:
   GCLOUD_JSON_KEY: ${{ secrets.GCLOUD_JSON_KEY }}
   GCLOUD_PROJECT_ID: ${{ secrets.GCLOUD_PROJECT_ID }}
 ```
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Folmero%2Fbuild-tag-push-to-gcr-action.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Folmero%2Fbuild-tag-push-to-gcr-action?ref=badge_large)
